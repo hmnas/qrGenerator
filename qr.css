@@ -1,0 +1,52 @@
+body {
+    background: rgb(12, 12, 56);
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    text-align: center;
+    color: rgb(5, 5, 5);
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    padding: 20px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.container input {
+    outline: none;
+    width: 95%;
+    padding: 7px;
+    border-radius: 3px;
+
+}
+
+.container button {
+    outline: none;
+    width: 100%;
+    padding: 7px;
+    background-color: rgb(253, 231, 29);
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+
+.img-box {
+    margin: 15px;
+    width: 180px;
+    min-height: 0;
+    max-height: 150px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.img-box img {
+    width: 100%;
+    min-height: 0;
+    max-height: 160px;
+}
